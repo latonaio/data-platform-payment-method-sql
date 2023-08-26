@@ -1,8 +1,8 @@
 CREATE TABLE `data_platform_payment_method_payment_method_text_data`
 (
     `PaymentMethod`                varchar(1) NOT NULL,
-    `Language`                     varchar(3) NOT NULL,
-    `PaymentMethodName`            varchar(40) NOT NULL,
+    `Language`                     varchar(2) NOT NULL,
+    `PaymentMethodName`            varchar(200) NOT NULL,
     `CreationDate`                 date NOT NULL,
     `LastChangeDate`               date NOT NULL,
     `IsMarkedForDeletion`          tinyint(1) DEFAULT NULL,
